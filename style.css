@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    color: aliceblue;
+    cursor: pointer;
+}
+#red{
+    background: red;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+#green{
+    background: green;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+#blue{
+    background: blue;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+#orange{
+    background: orange;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+#pink{
+    background: pink;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+#black{
+    background: black;
+    margin: 10px;
+    border: solid 10px gainsboro;
+}
+@media (max-width:800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
